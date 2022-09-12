@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #18614f;
+    color: #ecf0f1;
+    position: fixed;
+    width: 100vw;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+#about .container{
+    margin-top: 75px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #18614f;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.img-left {
+    margin-right: 32px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.img-right {
+    margin-left: 32px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.img-bike {
+    margin: 40px 25% 0 25%;
+    width: 50%;
+    bottom: 0;
+}
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #18614f;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #18614f;
+}
+
+form button:hover {
+    background-color: #52bda2;
+    text-decoration: underline;
+    border: 1px solid #18614f;
+}
+
+input:focus, textarea:focus {
+    outline-color: #18614f;
+}
+
+footer {
+    background-color: #18614f;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+.info{
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.info li {
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.description{
+    display: block;
+    padding: 12px;
+}
+
+hr{
+    width: 100%;
+    max-width: 1280px;
+    margin: 26px auto;
+    border-top: 1px solid #18614f
+}
+
+.sep-bikes{
+    margin: 16px auto;
+    border-top: 1px dotted #18614f
+}
